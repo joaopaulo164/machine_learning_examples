@@ -42,7 +42,9 @@ plt.scatter(
     iris['Petal.Length'], iris['Petal.Width'], sizes=20 * iris['Petal.Length'],
     c=iris['SpeciesNumber'], cmap='viridis', alpha=0.8
 )
-
+plt.title('Superfície de distribuíção do Dataset IRIS')
+plt.xlabel('Comprimento da petala (cm)')
+plt.ylabel('Largura da petala (cm)')
 plt.show()
 
 # http://scikit-learn.org/stable/modules/tree.html

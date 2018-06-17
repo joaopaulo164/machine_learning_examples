@@ -4,6 +4,7 @@ __author__ = 'john'
 # Old Faithful
 # Old Faithful é um géiser localizado no Parque Nacional de Yellowstone, em Wyoming, nos Estados Unidos. Old Faithful foi nomeado em 1870 durante a Expedição Washburn e foi o primeiro géiser do parque a receber um nome.
 # http://fromdatawithlove.thegovans.us/2013/05/clustering-using-scikit-learn.html
+# http://www.stat.cmu.edu/~larry/all-of-statistics/=data/faithful.dat
 
 from sklearn import cluster, datasets
 import numpy as np
