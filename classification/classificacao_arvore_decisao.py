@@ -6,7 +6,7 @@ from sklearn import tree
 import graphviz
 
 iris = load_iris()
-clf = tree.DecisionTreeClassifier(max_leaf_nodes=3)
+clf = tree.DecisionTreeClassifier()
 #clf = tree.DecisionTreeClassifier()
 clf = clf.fit(iris.data, iris.target)
 
